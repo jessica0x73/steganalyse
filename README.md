@@ -1,6 +1,5 @@
 # An Investigation into Steganalysis Techniques in Media File Forensics and the Use of Machine Learning in Identifying Affected Files
 
----
 
 ## Description
 
@@ -10,7 +9,6 @@ The features that have been successfully utilised are:
 - Lyu and Farid's (2003, quoted in Schaathun, 2012a, p. 96; 2006, quoted in Schaathun, 2012a, p. 96) higher order statistics for image steganalysis, through the `features` package of the `pysteg` (Schaathun, 2012b) Python module.
 - Zhang, Cao and Zhao's (2017) features for video steganalysis based on "near perfect estimation for local optimality", through Zhang's (2019) `NPELO` extractor.
 
----
 
 ## Requirements
 
@@ -27,7 +25,6 @@ The features that have been successfully utilised are:
 
 See requirements-p3.txt for required Python 3 modules, and requirements-p2.txt for required Python 2.7 modules.
 
----
 
 ## Usage
 
@@ -90,7 +87,6 @@ $ ./get-training-images.sh url-list.txt
 
 Due to availability of existing video datasets and video steganography tools, the video files must be gathered and prepared manually.
 
----
 
 ## References
 
